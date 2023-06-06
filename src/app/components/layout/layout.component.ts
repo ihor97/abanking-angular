@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-layout',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements OnInit {
-
+@Input() public prop:boolean
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.prop);
+    
   }
  public say(){
   console.log('access to layout');

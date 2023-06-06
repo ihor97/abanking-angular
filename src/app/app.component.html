@@ -1,6 +1,14 @@
 <div>
-  <app-layout></app-layout>
+  <!-- в ngIf всеодно під капотом ng-template -->
+  <div *ngIf="property;else elseTemplate">
+      <app-layout [prop]="property"></app-layout>
   <input #input type="text">
   <span  #button>text</span>
+  </div>
+
+  <!--ng-template нічого не рендерить  -->
+<ng-template #elseTemplate>
+  <p>sssss</p>
+</ng-template>
 
 </div>
