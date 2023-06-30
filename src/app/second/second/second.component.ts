@@ -16,7 +16,10 @@ export class SecondComponent implements OnInit {
 
   ngOnInit(): void {
     console.log('SecondComponent init');
-    this.srv.use()
+    // якщо в нас є ця залкжність виконуємо код
+    if(this.srv){
+      this.srv.use()
+    }
     
   }
 

@@ -8,11 +8,13 @@ import { LogService } from 'src/app/log.service';
 })
 export class FirstComponent implements OnInit {
 
-  constructor(private srv:LogService) { }
+  constructor(
+    // private srv:LogService
+    ) { }
 
   ngOnInit(): void {
     console.log('FirstComponent init');
-    this.srv.use()
+    // this.srv.use()
     
   }
 
