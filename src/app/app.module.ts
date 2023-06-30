@@ -18,7 +18,8 @@ import { AppComponent } from "./app.component";
         {path:'second',loadChildren:()=>SecondModule,pathMatch:'full'},
 
     ])],
-    providers:[LogService],
+    // якщо сервіс не знаходиться вибивається помилка з NullIjnector (тобто те що по дереву інстанс класа не знайшовся)
+    // буде тільки один інстанс на всю апку
     exports:[RouterModule],
     declarations:[AppComponent,MainComponent],
     bootstrap:[AppComponent]

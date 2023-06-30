@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Optional } from '@angular/core';
 import { LogService } from 'src/app/log.service';
 
 @Component({
@@ -8,7 +8,11 @@ import { LogService } from 'src/app/log.service';
 })
 export class SecondComponent implements OnInit {
 
-  constructor(private srv:LogService) { }
+  constructor(
+    // вказує на те що це опціональна залежність і замість Nullinjector  викинеться null
+    @Optional()
+    private srv:LogService
+    ) { }
 
   ngOnInit(): void {
     console.log('SecondComponent init');
