@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterModule } from "@angular/router";
 import { SecondComponent } from "./second/second.component";
+import { LogService } from "../log.service";
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { SecondComponent } from "./second/second.component";
             [{path:'',component:SecondComponent}]
         )
     ],
-    providers:[],
+    providers:[LogService],
     exports:[RouterModule]
 })
 export class SecondModule{}
