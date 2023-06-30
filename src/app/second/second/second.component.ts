@@ -1,4 +1,4 @@
-import { Component, OnInit, Self } from '@angular/core';
+import { Component, OnInit, Self, SkipSelf } from '@angular/core';
 import { LogService } from 'src/app/log.service';
 
 @Component({
@@ -10,10 +10,12 @@ import { LogService } from 'src/app/log.service';
 export class SecondComponent implements OnInit {
 
   constructor(
-    // значить те що ця залежність має братися з місця де цей Self стоїть
-    // тобто якщо сервіс буде запровайджений в модулі буде кидатися помилка
+    // якщо у компоненті є провайдер сервіса то він його заскіпає 
+    @SkipSelf()
+    private srv:LogService,
+    // тут ми маємо один сервіс що скіпає свої провайдери а другий що бере тільки зі своєї компоненти 
     @Self()
-    private srv:LogService
+    private srv2:LogService,
     ) { }
 
   ngOnInit(): void {
