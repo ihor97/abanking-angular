@@ -4,6 +4,7 @@ import { RouterModule } from "@angular/router";
 import { SecondComponent } from "./second/second.component";
 import { LogService } from "../log.service";
 import { BetterServiceService } from "../better-service.service";
+import { HttpClient, HttpHandler } from "@angular/common/http";
 
  export const LogServiceToken=new InjectionToken('')
  export interface ILogService{
@@ -33,7 +34,16 @@ import { BetterServiceService } from "../better-service.service";
        {
         provide:'Hello',
         useClass:BetterServiceService
+       },
+       {
+        provide:'test',
+        useFactory:(httpHandler:HttpHandler)=>{
+            return new HttpClient(httpHandler)
+        },
+        // deps для того щоб ми могли передавати залежності які потребує наш клас в колбеці useFactory
+        deps:[HttpHandler]
        }
+
         
         ],
     exports:[RouterModule]

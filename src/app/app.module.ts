@@ -6,7 +6,7 @@ import { SecondModule } from "./second/second.module";
 import { LogService } from "./log.service";
 import { AppComponent } from "./app.component";
 
-
+import { HttpClientModule } from "@angular/common/http";
 
 
 
@@ -17,7 +17,9 @@ import { AppComponent } from "./app.component";
         {path:'first',loadChildren:()=>import('./first/first.module').then(m=>m.FirstModule),pathMatch:'full'},
         {path:'second',loadChildren:()=>SecondModule,pathMatch:'full'},
 
-    ])],
+    ]),
+    HttpClientModule
+],
     // якщо сервіс не знаходиться вибивається помилка з NullIjnector (тобто те що по дереву інстанс класа не знайшовся)
     // буде тільки один інстанс на всю апку
     exports:[RouterModule],
