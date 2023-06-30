@@ -7,9 +7,7 @@ import { LogService } from "./log.service";
 import { AppComponent } from "./app.component";
 
 
-export interface ILogService{
-    use():void
-}
+
 
 
 @NgModule({
