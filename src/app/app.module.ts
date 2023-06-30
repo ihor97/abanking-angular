@@ -7,7 +7,9 @@ import { LogService } from "./log.service";
 import { AppComponent } from "./app.component";
 
 
-
+export interface ILogService{
+    use():void
+}
 
 
 @NgModule({
@@ -22,7 +24,15 @@ import { AppComponent } from "./app.component";
     // буде тільки один інстанс на всю апку
     exports:[RouterModule],
     declarations:[AppComponent,MainComponent],
-    bootstrap:[AppComponent]
+    bootstrap:[AppComponent],
+    providers:[LogService]
+    // під капотом providers це є 
+    //  providers:[{
+        // {
+        // provide:LogService, це є ніби ключ
+        // useClass:LogService це сам клас
+        // }
+    // }]
 
 })
 export class AppModule{}

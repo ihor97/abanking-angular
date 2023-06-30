@@ -12,7 +12,7 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
     // сервіси ліниво створюються тому що в цій компоненті не має сервіса і відповідно він не буде створюватися
-    console.log('MainModule created');
+    // console.log('MainModule created');
     
   }
 
