@@ -13,11 +13,14 @@ export class SecondComponent implements OnInit {
     // як інжектити класи по інтерфейсу
     @Inject(LogServiceToken)
     private srv:ILogService,
+    @Inject('test2') private srv2:LogService
     ) { }
 
   ngOnInit(): void {
     console.log('SecondComponent init');
-  
+  this.srv.use()
+  this.srv2.use()
+
 
   }
 

@@ -42,7 +42,12 @@ import { HttpClient, HttpHandler } from "@angular/common/http";
         },
         // deps для того щоб ми могли передавати залежності які потребує наш клас в колбеці useFactory
         deps:[HttpHandler]
-       }
+       },
+       {
+        provide:'test2',
+        // ми використовуємо те що з вже створено по якомусь ключу
+        useExisting:LogServiceToken
+    }
 
         
         ],
