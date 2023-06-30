@@ -1,10 +1,11 @@
-import { NgModule } from "@angular/core";
+import { InjectionToken, NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterModule } from "@angular/router";
 import { SecondComponent } from "./second/second.component";
 import { LogService } from "../log.service";
 import { BetterServiceService } from "../better-service.service";
 
+ export const LogServiceToken=new InjectionToken('')
 
 @NgModule({
     declarations:[
@@ -18,7 +19,7 @@ import { BetterServiceService } from "../better-service.service";
     ],
     providers:[
        {
-        provide:'Hello',
+        provide:LogServiceToken,
         useClass:LogService
        },
     //    тут він видасть нам останній сервіс під цим іменем 

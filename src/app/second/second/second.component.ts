@@ -1,6 +1,7 @@
 import { Component, Inject, OnInit  } from '@angular/core';
 import { ILogService } from 'src/app/app.module';
 import { LogService } from 'src/app/log.service';
+import { LogServiceToken } from '../second.module';
 
 @Component({
   selector: 'app-second',
@@ -11,7 +12,7 @@ export class SecondComponent implements OnInit {
 
   constructor(
     // як інжектити класи по інтерфейсу
-    @Inject('Hello')
+    @Inject(LogServiceToken)
     private srv:ILogService,
     ) { }
 
