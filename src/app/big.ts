@@ -1,0 +1,1044 @@
+
+export let  bigState=[{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+},
+{
+    title:'Первий',
+    isCompleted:true
+}]

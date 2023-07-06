@@ -5,6 +5,8 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
 if (environment.production) {
+  // ангулар спочатку малює раз потім ще раз щоб чекнути чи щось змінилось в девмоді
+  // в проді все рисується тільки раз
   enableProdMode();
 }
 
